@@ -1,7 +1,6 @@
 import React from "react";
-import { Input } from "semantic-ui-react";
 
-export const Login: React.FC = () => {
+export const Main: React.FC = () => {
   return <Render></Render>;
 };
 

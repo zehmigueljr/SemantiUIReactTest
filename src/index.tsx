@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+import { RootProvider, rootStore } from "./Models/Root";
 import * as serviceWorker from "./serviceWorker";
 import "semantic-ui-less/semantic.less";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <RootProvider value={rootStore}>
     <App />
-  </React.StrictMode>,
+  </RootProvider>,
   document.getElementById("root")
 );
 
