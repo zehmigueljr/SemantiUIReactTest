@@ -4,7 +4,7 @@ import { Login } from "./Login/Index";
 function App() {
   return (
     <div className="App">
-      <Login></Login>
+      <Login />
     </div>
   );
 }
