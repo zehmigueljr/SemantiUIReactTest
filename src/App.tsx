@@ -1,9 +1,10 @@
 import React from "react";
+import { Login } from "./Login/Index";
 
 function App() {
   return (
     <div className="App">
-      <h3>Initial page</h3>
+      <Login></Login>
     </div>
   );
 }
